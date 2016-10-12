@@ -10,9 +10,32 @@ useful together.
 ```jsx
 import EscapeOutside from "react-escape-outside"
 
-<EscapeOutside onEscapeOutside={ this.handleEscapeOutside }>
-  <div>Some content that will be closed</div>
-</EscapeOutside>
+class MyComponent extends Component {
+
+  constructor() {
+    super()
+
+    this.state = {
+      isOpen: false,
+    }
+
+    this.handleEscapeOutside = this.handleEscapeOutside.bind(this)
+  }
+
+  //… more of your own code, e.g to open your modal
+
+  handleEscapeOutside() {
+    this.setState({ isOpen: false })
+  }
+
+  render() {
+    return (
+      <EscapeOutside onEscapeOutside={ this.handleEscapeOutside }>
+        <div>Some content that will be closed</div>
+      </EscapeOutside>
+    )
+  }
+}
 ```
 
 Make sure to escape outside from time to time!
