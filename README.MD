@@ -1,4 +1,4 @@
-# Close React component by pressing Escape or clicking outside
+# React Escape Outside
 
 Higher Order Component to close wrapped component by pressing ESC key or
 clicking outside. Combines two separate funcionalities I often find
@@ -15,6 +15,7 @@ import EscapeOutside from "react-escape-outside"
 </EscapeOutside>
 ```
 
-## Escape outside!
+Make sure to escape outside from time to time!
 
-:sunny: :cloud: :palm_tree: :evergreen_tree: :mushroom:
+:ocean: :sunny: :cloud: :palm_tree: :evergreen_tree: :mushroom: :herb:
+:honeybee: :bear: :frog: :crocodile:
