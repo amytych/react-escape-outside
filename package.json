@@ -1,6 +1,6 @@
 {
   "name": "react-escape-outside",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "close react component by pressing ESCAPE or clicking outside",
   "main": "dist/index.js",
   "scripts": {
