@@ -39,6 +39,7 @@
     "eslint": "^3.7.1",
     "eslint-config-i-am-meticulous": "^5.0.2",
     "eslint-plugin-react": "^6.4.1",
+    "prop-types": "^15.5.10",
     "react": "^15.3.2"
   }
 }
