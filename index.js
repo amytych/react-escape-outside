@@ -17,11 +17,13 @@ export default class EscapeOutside extends Component {
   componentDidMount() {
     document.addEventListener("keydown", this.onEscape)
     document.addEventListener("click", this.onClick, true)
+    document.addEventListener("touchend", this.onClick, true)
   }
 
   componentWillUnmount() {
     document.removeEventListener("keydown", this.onEscape)
     document.removeEventListener("click", this.onClick, true)
+    document.removeEventListener("touchend", this.onClick, true)
   }
 
   onEscape(e) {
