@@ -8,6 +8,10 @@ export default class EscapeOutside extends Component {
     mouseEvent: PropTypes.string,
     touchEvent: PropTypes.string,
   }
+  static defaultProps = {
+      mouseEvent: 'click',
+      touchEvent: 'touchend',
+  }
 
   constructor() {
     super()
@@ -58,7 +62,3 @@ export default class EscapeOutside extends Component {
   }
 }
 
-defaultProps = {
-    mouseEvent: 'click',
-    touchEvent: 'touchend',
-}
