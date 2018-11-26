@@ -38,6 +38,10 @@ class MyComponent extends Component {
 }
 ```
 
+## Specify mouse and touch event
+
+Mouse and touch handlers are attached to `click` and `touchend` events but you can override these defaults with `mouseEvent` and `touchEvent` props.
+
 Make sure to escape outside from time to time!
 
 :ocean: :sunny: :cloud: :palm_tree: :evergreen_tree: :mushroom: :herb:
