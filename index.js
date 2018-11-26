@@ -5,6 +5,12 @@ export default class EscapeOutside extends Component {
   static propTypes = {
     children: PropTypes.element.isRequired,
     onEscapeOutside: PropTypes.func.isRequired,
+    mouseEvent: PropTypes.string,
+    touchEvent: PropTypes.string,
+  }
+  static defaultProps = {
+    mouseEvent: 'click',
+    touchEvent: 'touchend',
   }
 
   constructor() {
@@ -16,14 +22,14 @@ export default class EscapeOutside extends Component {
 
   componentDidMount() {
     document.addEventListener("keydown", this.onEscape)
-    document.addEventListener("click", this.onClick, true)
-    document.addEventListener("touchend", this.onClick, true)
+    document.addEventListener(this.props.mouseEvent, this.onClick, true)
+    document.addEventListener(this.props.touchEvent, this.onClick, true)
   }
 
   componentWillUnmount() {
     document.removeEventListener("keydown", this.onEscape)
-    document.removeEventListener("click", this.onClick, true)
-    document.removeEventListener("touchend", this.onClick, true)
+    document.removeEventListener(this.props.mouseEvent, this.onClick, true)
+    document.removeEventListener(this.props.touchEvent, this.onClick, true)
   }
 
   onEscape(e) {
@@ -44,6 +50,8 @@ export default class EscapeOutside extends Component {
 
     delete props.onEscapeOutside
     delete props.children
+    delete props.mouseEvent
+    delete props.touchEvent
 
     return (
       <div
@@ -55,3 +63,4 @@ export default class EscapeOutside extends Component {
     )
   }
 }
+
