@@ -32,20 +32,20 @@
     "extends": "eslint-config-i-am-meticulous/react"
   },
   "devDependencies": {
-    "@babel/cli": "^7.2.3",
-    "@babel/core": "^7.2.2",
-    "@babel/plugin-proposal-class-properties": "^7.2.3",
-    "@babel/preset-env": "^7.2.3",
-    "@babel/preset-react": "^7.0.0",
-    "@storybook/react": "^4.1.6",
-    "@storybook/storybook-deployer": "^2.8.1",
+    "@babel/cli": "7.2.3",
+    "@babel/core": "7.2.2",
+    "@babel/plugin-proposal-class-properties": "7.2.3",
+    "@babel/preset-env": "7.2.3",
+    "@babel/preset-react": "7.0.0",
+    "@storybook/react": "4.1.6",
+    "@storybook/storybook-deployer": "2.8.1",
     "babel-eslint": "10.0.1",
-    "babel-loader": "^8.0.5",
+    "babel-loader": "8.0.5",
     "eslint": "5.12.0",
     "eslint-config-i-am-meticulous": "11.0.0",
-    "eslint-plugin-react": "^7.12.3",
+    "eslint-plugin-react": "7.12.3",
     "prop-types": "15.6.2",
     "react": "16.7.0",
-    "react-dom": "^16.7.0"
+    "react-dom": "16.7.0"
   }
 }
