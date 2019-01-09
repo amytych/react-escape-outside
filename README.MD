@@ -2,7 +2,7 @@
 
 Higher Order Component to close wrapped component by pressing ESC key or
 clicking outside. Combines two separate funcionalities I often find
-useful together. [See a demo](https://amytych.github.io/react-escape-outside/index.html)
+useful together. [See a demo](https://amytych.github.io/react-escape-outside/index.html).
 
 ## Usage
 `npm i react-escape-outside --save`
