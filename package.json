@@ -44,7 +44,7 @@
     "eslint": "5.13.0",
     "eslint-config-i-am-meticulous": "11.0.0",
     "eslint-plugin-react": "7.12.4",
-    "prop-types": "15.6.2",
+    "prop-types": "15.7.1",
     "react": "16.8.1",
     "react-dom": "16.8.1"
   }
