@@ -37,7 +37,7 @@
     "@babel/plugin-proposal-class-properties": "7.3.4",
     "@babel/preset-env": "7.3.4",
     "@babel/preset-react": "7.0.0",
-    "@storybook/react": "5.0.1",
+    "@storybook/react": "5.0.2",
     "@storybook/storybook-deployer": "2.8.1",
     "babel-eslint": "10.0.1",
     "babel-loader": "8.0.5",
