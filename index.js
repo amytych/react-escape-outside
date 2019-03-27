@@ -37,7 +37,7 @@ export default class EscapeOutside extends Component {
   }
 
   onClick(e) {
-    if (!this.ref.contains(e.target)) this.props.onEscapeOutside(e)
+    if (this.ref && !this.ref.contains(e.target)) this.props.onEscapeOutside(e)
   }
 
   getRef(ref) {
