@@ -40,7 +40,7 @@
     "@storybook/react": "5.0.11",
     "@storybook/storybook-deployer": "2.8.1",
     "babel-eslint": "10.0.1",
-    "babel-loader": "8.0.5",
+    "babel-loader": "8.0.6",
     "eslint": "5.16.0",
     "eslint-config-i-am-meticulous": "11.0.0",
     "eslint-plugin-react": "7.13.0",
