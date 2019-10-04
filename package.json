@@ -43,7 +43,7 @@
     "babel-loader": "8.0.6",
     "eslint": "6.4.0",
     "eslint-config-i-am-meticulous": "11.0.0",
-    "eslint-plugin-react": "7.14.3",
+    "eslint-plugin-react": "7.16.0",
     "prop-types": "15.7.2",
     "react": "16.9.0",
     "react-dom": "16.9.0"
