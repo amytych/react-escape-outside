@@ -32,11 +32,11 @@
     "extends": "eslint-config-i-am-meticulous/react"
   },
   "devDependencies": {
-    "@babel/cli": "7.6.0",
-    "@babel/core": "7.6.0",
+    "@babel/cli": "7.6.4",
+    "@babel/core": "7.6.4",
     "@babel/plugin-proposal-class-properties": "7.5.5",
-    "@babel/preset-env": "7.6.0",
-    "@babel/preset-react": "7.0.0",
+    "@babel/preset-env": "7.6.3",
+    "@babel/preset-react": "7.6.3",
     "@storybook/react": "5.2.5",
     "@storybook/storybook-deployer": "2.8.1",
     "babel-eslint": "10.0.3",
